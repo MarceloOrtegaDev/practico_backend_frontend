@@ -1,0 +1,45 @@
+div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    gap: 16px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(240, 210, 156);
+    padding: 20px;
+    width: 300px;
+    height: 400px;
+    border-radius: 10px;
+}
+h1{
+    color: rgb(92, 47, 47);
+    font-weight: bold;
+    text-align: center;
+}
+input{
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button{
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(141, 180, 180);
+    border-color: #ccc;
+    cursor: pointer;
+    font-weight: bold;
+    color: white;
+}
+
+button:hover{
+    background-color: rgb(92, 47, 47);
+    color: white;
+}
